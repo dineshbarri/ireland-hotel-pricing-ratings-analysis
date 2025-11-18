@@ -95,6 +95,135 @@ The scraper collected attributes including:
 
 The scraped dataset was stored as: **hotels_raw.csv**
 
+---
+
+
+---
+
+# 🧹 2. Data Cleaning using Python
+
+Cleaning and preprocessing were performed in the Jupyter notebook:
+
+
+### ✔ Key Cleaning Steps:
+
+- Removed duplicates  
+- Cleaned price formatting (`€`, commas, text)  
+- Standardized rating and review count fields  
+- Extracted numeric values from text fields  
+- Cleaned boolean fields (e.g., Free Cancellation)  
+- Filled or removed missing values  
+- City extraction from hotel location text  
+- Exported final cleaned dataset  
+
+#### ✔ Final Cleaned Output:  **hotels_cleaned.csv**
+
+
+---
+
+# 🗄️ 3. SQL Analysis (SSMS)
+
+The cleaned dataset was imported into SQL Server Management Studio (SSMS).
+
+All SQL queries, CTEs, and table creation scripts are included in:
+
+
+### 🔍 **Key Business Questions Solved (Using SQL + CTEs)**
+
+---
+
+### **1️⃣ Top Rated Hotels**
+Identify the highest-scoring hotels across Ireland.
+
+### **2️⃣ Average Rating by City**
+Which cities have the best overall hotel ratings?
+
+### **3️⃣ Top 5 Hotels by Rating & Review Count**
+Ranking hotels using a combined metric:
+
+- High rating  
+- High review count  
+
+### **4️⃣ Hotels Offering Free Cancellation with High Scores**
+Helps identify flexible, yet top-performing stays.
+
+### **5️⃣ Price Range Analysis by City**
+Understand pricing patterns across major cities.
+
+### **6️⃣ Room Availability by City**
+Which cities have higher average rooms left?
+
+### **7️⃣ Review Rate Distribution**
+Distribution of hotels across review categories.
+
+### **8️⃣ Impact of Review Count on Rating**
+A correlation study using SQL aggregations.
+
+---
+
+# 📊 4. Power BI Dashboard
+
+The cleaned dataset was imported into Power BI to develop a dynamic hotel insights dashboard.
+
+### **Dashboard Features**
+
+✔ **City-wise hotel distribution**  
+✔ **Top-rated hotels visualized**  
+✔ **Price range visuals (boxplots, bar charts)**  
+✔ **Scatter plot for Review Count vs Score (correlation)**  
+✔ **Map visual of hotels across Ireland**  
+✔ **Filters & Slicers** for:  
+- City  
+- Price  
+- Review category  
+- Free cancellation  
+
+
+
+---
+
+# 📈 5. Insights & Findings
+
+### **🏆 Top Cities by Rating**
+Some Irish cities consistently show higher average hotel scores.
+
+### **💶 Price Trends**
+Hotels in cities like Dublin show higher weekend pricing.
+
+### **🛏️ Room Availability**
+Certain tourist-heavy locations show low room availability.
+
+### **✔ Free Cancellation Impact**
+Hotels offering flexible cancellation often maintain higher ratings.
+
+### **⭐ Review Count vs Rating**
+A moderate relationship observed — hotels with high review counts often maintain stable score averages.
+
+---
+
+# 🧩 6. Tools & Technologies Used
+
+| Category | Technology |
+|---------|-------------|
+| **Web Scraping** | Instant Data Scraper |
+| **Data Cleaning** | Python, Pandas, NumPy |
+| **Database** | SQL Server (SSMS) |
+| **Querying** | SQL, CTEs, Aggregations |
+| **Visualization** | Microsoft Power BI |
+| **Project Management** | GitHub |
+
+---
+
+# 🚀 7. How to Use This Repo
+
+### **1. Clone the repository**
+```bash
+git clone https://github.com/dineshbarri/Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI.git
+cd Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI
+```
+
+
+
 
 
 
