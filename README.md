@@ -266,7 +266,7 @@ cd Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI
 
 - Open **SQL Server Management Studio (SSMS)** and create a new database named **Hotels**.
 -  Right-click the database → **Tasks → Import Flat File** → load `hotels_cleaned.csv` as table **hotels_cleaned**.
--  Open `sql/Hotels_Cleaned_Ireland.sql` in SSMS and select the **Hotels** database.
+-  Open `sql/Hotels_Ireland.sql` in SSMS and select the **Hotels** database.
 -  Run the script (F5) to execute all SQL analysis queries.
 
 
