@@ -10,13 +10,8 @@
 </div>
 
 This end-to-end data analytics project focuses on analyzing **hotels in Ireland** using real-world data scraped from *Booking.com*.  
-The project covers the full lifecycle of a modern data analytics workflow:
+The project covers the full lifecycle of a modern data analytics workflow
 
-✔ Data Collection through Web Scraping  
-✔ Data Cleaning & Preprocessing using Python  
-✔ Exploratory Data Analysis using SQL (SSMS)  
-✔ Visual Analytics with Power BI  
-✔ Final Insights & Business Value Summary  
 
 ---
 
@@ -201,7 +196,7 @@ A moderate relationship observed — hotels with high review counts often mainta
 
 ---
 
-# 🧩 6. Tools & Technologies Used
+## 🧩 6. Tools & Technologies Used
 
 | Category | Technology |
 |---------|-------------|
@@ -219,6 +214,7 @@ A moderate relationship observed — hotels with high review counts often mainta
 - **pandas, numpy libraries**
 - **Microsoft SQL Server**
 - **Power BI Desktop**
+- **Jupyter Notebook**
 
 
 ---
@@ -261,7 +257,56 @@ cd Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI
    - Or open Power BI Desktop and select File → Open → Browse to the file
 
 
+---
+
+## 📈 Business Impact
+
+This analysis provides:
+- **Strategic Insights** for hotel pricing and positioning
+- **Market Intelligence** for new hotel developments  
+- **Travel Planning** tools for tourists and business travelers
+- **Competitive Analysis** framework for hospitality industry
+
+## 🔮 Future Enhancements
+
+- Real-time data integration
+- Seasonal pricing analysis
+- Customer sentiment analysis from reviews
+- Predictive modeling for pricing optimization
+- Mobile app development for travelers
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check issues page if you want to contribute.
+
+---
 
 
+## 👨‍💻 Creator
+
+### Dinesh Barri
+
+#### 📬 Contact Information
+
+- **📧 Email**: [dineshbarri1997@gmail.com](mailto:dineshbarri1997@gmail.com)
+- **💼 LinkedIn**: [dinesh-barri](https://www.linkedin.com/in/dinesh-barri)
+- **🐙 GitHub**: [dineshbarri](https://github.com/dineshbarri)
+
+---
+
+
+
+
+# 📄 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### ⭐ If you like this project, don't forget to give it a star!
 
 
