@@ -65,6 +65,8 @@ Ireland-Hotels-Data-Analysis/
 
 ---
 
+## 🔍 Analysis Workflow
+
 ## 🏨 1. Data Collection (Web Scraping)
 
 ### ✔ Source  
@@ -90,19 +92,17 @@ The scraper collected attributes including:
 
 The scraped dataset was stored as: **hotels_raw.csv**
 
----
-
 
 ---
 
-# 🧹 2. Data Cleaning using Python
+##🧹 2. Data Cleaning using Python
 
 Cleaning and preprocessing were performed in the Jupyter notebook:
 
 
 ### ✔ Key Cleaning Steps:
 
-- Removed duplicates  
+- Removed duplicates 
 - Cleaned price formatting (`€`, commas, text)  
 - Standardized rating and review count fields  
 - Extracted numeric values from text fields  
@@ -116,7 +116,7 @@ Cleaning and preprocessing were performed in the Jupyter notebook:
 
 ---
 
-# 🗄️ 3. SQL Analysis (SSMS)
+## 🗄️ 3. SQL Analysis (SSMS)
 
 The cleaned dataset was imported into SQL Server Management Studio (SSMS).
 
@@ -160,24 +160,47 @@ A correlation study using SQL aggregations.
 
 The cleaned dataset was imported into Power BI to develop a dynamic hotel insights dashboard.
 
-### **Dashboard Features**
 
-✔ **City-wise hotel distribution**  
-✔ **Top-rated hotels visualized**  
-✔ **Price range visuals (boxplots, bar charts)**  
-✔ **Scatter plot for Review Count vs Score (correlation)**  
-✔ **Map visual of hotels across Ireland**  
-✔ **Filters & Slicers** for:  
-- City  
-- Price  
-- Review category  
-- Free cancellation  
+<div align="center">
+ 
+ ![Hotels Dashboard Screenshot](assets/dashboard_preview.png)
+  <p>
+    <a href="https://www.novypro.com/project/ireland-hotel-intelligence-dashboard/" target="_blank">
+      🚀 Live Demo
+    </a>
+  </p>
+  
+</div>
+
+## Dashboard Features
+
+### Key Metrics Cards
+- **Total Reviews:** 2.10K
+- **Average Price (€):** €276.53
+- **Average Score:** 8.35
+- **Total Hotels:** 450
+
+### Hotel Quality & Revenue
+- **Price vs. Score Analysis:** Correlation between hotel price and guest rating
+- **Revenue by Guest Rating:** Breakdown by categories (Excellent, Wonderful, Very Good, etc.)
+- **Hotel Quality Distribution:** Market split between Budget, Mid-Range, and Premium hotels
+
+### Performance & Distribution
+- **Top 10 Hotels by Score:** Highest-rated hotels ranking (Tamara's Lux..., Harvey's Point, etc.)
+- **Hotel Locations Across Ireland:** Geographic map showing hotel concentration nationwide
+- **Amenity Inclusion - Breakfast Coverage:** 64.22% include breakfast vs. 35.78% Room Only
+
+### Interactive Filters
+- Hotel Quality Tier
+- Location
+- Guest Score Band
+- Breakfast Inclusion
 
 
 
 ---
 
-# 📈 5. Insights & Findings
+## 📈 5. Insights & Findings
 
 ### **🏆 Top Cities by Rating**
 Some Irish cities consistently show higher average hotel scores.
