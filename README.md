@@ -113,7 +113,7 @@ The scraped dataset was stored as: **hotels_raw.csv**
 
 ---
 
-##🧹 2. Data Cleaning using Python
+## 🧹 2. Data Cleaning using Python
 
 Cleaning and preprocessing were performed in the Jupyter notebook:
 
