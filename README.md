@@ -1,5 +1,5 @@
 
-#  Ireland Hotels Data Analysis  
+#  Ireland Hotels Pricing Rating Analysis  
 
 <div align="center">
 
@@ -38,7 +38,7 @@ The analysis provides actionable insights useful for:
 
 ## 📁 **Repository Structure**
 ```text
-Ireland-Hotels-Data-Analysis/
+Ireland-Hotels-Pricing-Rating-Analysis/
 │
 ├── data/
 │   ├── raw/
@@ -275,8 +275,8 @@ A moderate relationship observed — hotels with high review counts often mainta
 
 ### ** 1. Clone the repository**
 ```bash
-git clone https://github.com/dineshbarri/Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI.git
-cd Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI
+git clone https://github.com/dineshbarri/ireland-hotel-pricing-ratings-analysis.git
+cd Ireland-Hotel-Pricing-Ratings-Analysis
 ```
 
 
