@@ -47,7 +47,7 @@ Ireland-Hotels-Data-Analysis/
 │       └── hotels_cleaned.csv          # Cleaned dataset
 │
 ├── notebooks/
-│   └── ireland_hotels_analysis.ipynb           # Data cleaning & preprocessing
+│   └── ireland_hotels_comprehensive_analysis.ipynb           # Data cleaning & preprocessing
 │
 ├── Hotels_Ireland.sql             # All SQL queries for analysis
 │
