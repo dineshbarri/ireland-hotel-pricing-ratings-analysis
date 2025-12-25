@@ -373,9 +373,11 @@ Contributions, issues, and feature requests are welcome! Feel free to check issu
 -  [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dinesh-barri-7654b010b)
 
 ---
+## 💖 Support This Project
+If you find this useful, consider supporting my open-source work in Data Analytics, ML & AI automation.  
+👉 [GitHub Sponsors](https://github.com/sponsors/dineshbarri) | [PayPal](https://paypal.me/dineshbarri1997)
 
-
-
+---
 
 # 📄 License
 
