@@ -291,11 +291,7 @@ A moderate relationship observed — hotels with high review counts often mainta
 - **Jupyter Notebook**
 
 ---
-## 💖 Support This Project
-If you find this useful, consider supporting my open-source work in Data Analytics, ML & AI automation.  
-👉 [GitHub Sponsors](https://github.com/sponsors/dineshbarri) | [PayPal](https://paypal.me/dineshbarri1997)
 
----
 
 ## 🛠️ Installation & Setup
 
