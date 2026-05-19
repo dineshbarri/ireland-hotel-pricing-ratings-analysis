@@ -219,7 +219,8 @@ The cleaned dataset was imported into Power BI to develop a dynamic hotel insigh
       🚀 View Live Dashboard
     </a>
   </p>
-  
+
+  ### Live Dashboard: Temporarily unavailable due to a hosting-side issue on NovyPro. Dashboard preview and source .pbix file are available in this repository.
 </div>
 
 ## Dashboard Features
